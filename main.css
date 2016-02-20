@@ -1,0 +1,60 @@
+/*
+Breakpoints: 
+320px - 375px; GREEN
+376px - 667px; YELLOW
+667px - 1024px; RED
+1024px - 1600px; BLUE
+*/
+@media(min-width:320px){
+.container{
+	background-color:green;
+}
+.monroe{
+    width:30%;
+    height:30%;
+    margin:auto;
+    margin-left:35%;
+}
+}
+
+@media(max-width: 375px){
+.container{
+	background-color:green;
+}
+}
+
+@media(min-width:376px){
+.container{
+	background-color:yellow;
+}
+
+
+@media(max-width:667px){
+.container{
+	background-color:yellow;
+}
+}
+
+@media(min-width:667px){
+.container{
+	background-color:red;
+}
+
+
+@media(max-width:1024px){
+.container{
+	background-color:red;
+}
+}
+
+@media(min-width:1024px){
+.container{
+	background-color:blue;
+}
+
+
+@media(max-width:1600px){
+.container{
+	background-color:blue;
+}
+}
